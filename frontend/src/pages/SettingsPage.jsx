@@ -125,7 +125,7 @@ export default function SettingsPage() {
       </motion.div>
 
       <p className="text-xs text-surface-600 text-center py-4">
-        Envision v1.0.0 — AI Interview Analysis Platform
+        TruthLens v1.0.0 — AI Interview Analysis Platform
       </p>
     </div>
   );

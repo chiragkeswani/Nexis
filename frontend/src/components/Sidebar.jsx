@@ -21,7 +21,7 @@ export default function Sidebar({ collapsed = false, onToggle }) {
           <Brain className="w-5 h-5 text-white" />
         </div>
         {!collapsed && (
-          <span className="text-lg font-bold text-gradient tracking-tight">Envision</span>
+          <span className="text-lg font-bold text-gradient tracking-tight">TruthLens</span>
         )}
       </div>
 

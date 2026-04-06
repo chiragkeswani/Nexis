@@ -30,7 +30,7 @@ export default function LoginPage() {
             <Video className="w-7 h-7 text-white" />
           </div>
           <h1 className="text-3xl font-bold text-surface-100">Welcome back</h1>
-          <p className="text-surface-500 mt-2">Sign in to continue to Envision</p>
+          <p className="text-surface-500 mt-2">Sign in to continue to TruthLens</p>
         </div>
 
         <div className="glass-card p-6 sm:p-8">
