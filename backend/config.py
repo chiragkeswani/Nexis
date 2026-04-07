@@ -6,8 +6,8 @@ import os
 
 # --- Paths ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-UPLOAD_DIR = os.path.join(BASE_DIR, "uploads")
-DATABASE_URL = f"sqlite:///{os.path.join(BASE_DIR, 'interview_results.db')}"
+UPLOAD_DIR = os.getenv("UPLOAD_DIR", os.path.join(BASE_DIR, "uploads"))
+DATABASE_URL = os.getenv("DATABASE_URL", f"sqlite:///{os.path.join(BASE_DIR, 'interview_results.db')}")
 
 # --- Analysis Weights (must sum to 1.0) ---
 FACIAL_WEIGHT = 0.30

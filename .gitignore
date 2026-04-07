@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+backend/uploads/
+backend/interview_results.db
+
+node_modules/
+dist/
+build/
+
+.DS_Store
