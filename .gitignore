@@ -9,6 +9,7 @@ __pycache__/
 
 backend/uploads/
 backend/interview_results.db
+backend/analyzers/*.task
 
 node_modules/
 dist/
